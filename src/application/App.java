@@ -21,6 +21,15 @@ public class App {
 
 		Menu menu1 = new Menu();
 		menu1.display();
+		
+		/* Second coding challenge
+		 * In the Menu class, create a get method that
+		 * returns a string similar to the options in the
+		 * first challenge.  
+		 * Call the method from main and print out the string.
+		 */
+		
+		System.out.println(menu1.get());
 	}
 
 }
